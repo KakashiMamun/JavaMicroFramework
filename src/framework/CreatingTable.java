@@ -88,12 +88,13 @@ public class CreatingTable {
                 
                 // stmt.executeUpdate(str);
 
-            } catch (SQLException ex) {
-                Logger.getLogger(IntroToDatabase.class.getName()).log(Level.SEVERE, null, ex);
-            }
-        } catch (ClassNotFoundException ex) {
-            Logger.getLogger(IntroToDatabase.class.getName()).log(Level.SEVERE, null, ex);
-        }
-    }
+            
+        } 
+            catch (SQLException ex) {
+                Logger.getLogger(CreatingTable.class.getName()).log(Level.SEVERE, null, ex);
+            }    }
+        catch (ClassNotFoundException ex) {
+            Logger.getLogger(CreatingTable.class.getName()).log(Level.SEVERE, null, ex);
+        }}
 }
 //made by nath
